@@ -9,6 +9,8 @@ async function startProgram() {
 
 
 
+
+
 /*
 
 //Start
@@ -29,7 +31,7 @@ async function startProgram() {
 //Nav: Zachary Ward
 
 
-
+	setMainLed({ r: 255, g: 255, b: 255 });
 
 
 
