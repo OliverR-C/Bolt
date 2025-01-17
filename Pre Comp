@@ -21,7 +21,7 @@ async function startProgram() {
 	await speak("start", true);
 	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
-*/
+
 
 
 
@@ -33,12 +33,15 @@ async function startProgram() {
 
 	setMainLed({ r: 255, g: 255, b: 255 });
 
-
+*/
 
 //Forward & turn 90 degrees and forward again
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
+	await roll(0, 80, 2);
+	await spin(90, 1);
+	await roll(90, 80, 2);
 
 
 //Sound
