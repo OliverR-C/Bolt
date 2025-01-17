@@ -33,7 +33,7 @@ async function startProgram() {
 
 	setMainLed({ r: 255, g: 255, b: 255 });
 
-*/
+
 
 //Forward & turn 90 degrees and forward again
 //Driver: Zachary Ward
@@ -43,6 +43,7 @@ async function startProgram() {
 	await spin(90, 1);
 	await roll(90, 80, 2);
 
+*/
 
 //Sound
 //Bolt will play a Sound
@@ -50,7 +51,7 @@ async function startProgram() {
 //Nav: Zachary Ward
 
 
-
+await Sound.Animal.play(true);
 
 
 //Figure eight
