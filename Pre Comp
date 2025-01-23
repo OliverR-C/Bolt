@@ -5,12 +5,6 @@
 
 async function startProgram() {
 
-
-
-
-
-
-
 /*
 
 //Start
@@ -21,19 +15,12 @@ async function startProgram() {
 	await speak("start", true);
 	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
-
-
-
-
 //white
 //Bolts LEDs will turn white
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
-
 	setMainLed({ r: 255, g: 255, b: 255 });
-
-
 
 //Forward & turn 90 degrees and forward again
 //Driver: Zachary Ward
@@ -43,12 +30,10 @@ async function startProgram() {
 	await spin(90, 1);
 	await roll(90, 80, 2);
 
-
 //Sound
 //Bolt will play a Sound
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
-
 
 await Sound.Animal.play(true);
 
@@ -61,8 +46,6 @@ await Sound.Animal.play(true);
 //Bolt will play a Sound
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
-
-
 
 //end code
 }
