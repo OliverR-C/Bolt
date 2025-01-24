@@ -15,14 +15,14 @@ async function startProgram() {
 /*
   await speak("start", true);
 	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
-
 */
+
 //Green Checkpoint
 //LED's turn Green
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
- await roll(0, 76.15, 2)
+ await roll(0, 76.15, 2);
 
 
 //Sound #1 Checkpoint
@@ -30,6 +30,9 @@ async function startProgram() {
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
+	await delay(1);
+	await spin(90, 1);
+	await roll(90, 56, 2);
 
 
 
