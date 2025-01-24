@@ -7,13 +7,14 @@
 async function startProgram() {
 
 
-//Start & Say start 
+//Start & Say start
 //Bolt will say start over LEDs and say Start
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
 
-
+  await speak("start", true);
+	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
 
 //Green Checkpoint
