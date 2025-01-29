@@ -37,7 +37,7 @@ setStabilization(false);
 	await roll(90, 52, 1.75);
 	await delay(.5);
 	await spin(90, .5);
-	await roll(180, 40, 1.75);
+	await roll(180, 36, 1.75);
 	await Sound.Animal.Monkey.play(true);
 
 
@@ -47,9 +47,9 @@ setStabilization(false);
 //LED's turn Red
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
-	await spin(30, 1);
+	await spin(29, 1);
 	await delay(.5);
-	await roll(210, 45, 1.75);
+	await roll(210, 43, 1.75);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 //Sound #2 Checkpoint
