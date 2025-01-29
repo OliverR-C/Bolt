@@ -49,7 +49,7 @@ setStabilization(false);
 //Nav: Oliver Rose-Clemontine
 	await spin(29, 1);
 	await delay(.5);
-	await roll(210, 43, 1.75);
+	await roll(210, 42, 1.75);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 //Sound #2 Checkpoint
@@ -57,6 +57,9 @@ setStabilization(false);
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
+	await delay(.5);
+	await spin(-90, 1);
+	await roll(120, 30, 1.75);
 
 
 //Purple Checkpoint
