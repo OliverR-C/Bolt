@@ -12,17 +12,17 @@ setStabilization(false);
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
-/*
-  await speak("start", true);
-	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
-*/
+  await speak("start", true);
+	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true);
+
+
 //Green Checkpoint
 //LED's turn Green
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
-	 await roll(0, 76.05, 1.75);
+	 await roll(0, 75.5, 1.75);
 	 await setMainLed({ r: 0, g: 255, b: 90 });
 
 
@@ -37,7 +37,7 @@ setStabilization(false);
 	await roll(90, 52, 1.75);
 	await delay(.5);
 	await spin(90, .5);
-	await roll(180, 30, 1.75);
+	await roll(180, 40, 1.75);
 	await Sound.Animal.Monkey.play(true);
 
 
@@ -47,7 +47,10 @@ setStabilization(false);
 //LED's turn Red
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
-
+	await spin(30, 1);
+	await delay(.5);
+	await roll(210, 45, 1.75);
+	await setMainLed({ r: 255, g: 0, b: 0 });
 
 //Sound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
