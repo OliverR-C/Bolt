@@ -47,9 +47,9 @@ setStabilization(false);
 //LED's turn Red
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
-	await spin(29, 1);
+	await spin(27, 1);
 	await delay(.5);
-	await roll(210, 42, 1.75);
+	await roll(210, 43.5, 1.75);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 //Sound #2 Checkpoint
@@ -59,8 +59,11 @@ setStabilization(false);
 
 	await delay(.5);
 	await spin(-90, 1);
-	await roll(120, 30, 1.75);
-
+	await roll(120, 28.5, 1.75);
+	await delay(.25);
+	await spin(-90, 1);
+	await roll(30, 30, 1.75);
+	await Sound.Animal.Eagle.play(true);
 
 //Purple Checkpoint
 //LED's turn Purple
