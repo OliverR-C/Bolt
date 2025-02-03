@@ -1,3 +1,4 @@
+
 //Team Members: Zachary Ward, Oliver Rose-Clemontine
 //Date: 1.24.2025
 //Program: Maze
@@ -5,7 +6,7 @@
 
 //Begin Program
 async function startProgram() {
-setStabilization(false);
+
 
 //Start & Say start
 //Bolt will say start over LEDs and say Start
@@ -22,7 +23,7 @@ setStabilization(false);
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
-	 await roll(0, 75.5, 1.75);
+	 await roll(0, 74, 2);
 	 await setMainLed({ r: 0, g: 255, b: 90 });
 
 
@@ -34,10 +35,10 @@ setStabilization(false);
 	await delay(.5);
 	await spin(90, .5);
 	await delay(.5);
-	await roll(90, 52, 1.75);
+	await roll(90, 53.5, 1.75);
 	await delay(.5);
 	await spin(90, .5);
-	await roll(180, 36, 1.75);
+	await roll(180, 37, 1.75);
 	await Sound.Animal.Monkey.play(true);
 
 
@@ -49,7 +50,7 @@ setStabilization(false);
 //Nav: Oliver Rose-Clemontine
 	await spin(27, 1);
 	await delay(.5);
-	await roll(210, 43.5, 1.75);
+	await roll(210, 45,1.75);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 //Sound #2 Checkpoint
@@ -59,16 +60,23 @@ setStabilization(false);
 
 	await delay(.5);
 	await spin(-90, 1);
-	await roll(120, 28.5, 1.75);
+	await roll(120, 30, 1.75);
 	await delay(.25);
 	await spin(-90, 1);
-	await roll(30, 30, 1.75);
+	await roll(30, 37, 1.75);
 	await Sound.Animal.Eagle.play(true);
 
 //Purple Checkpoint
 //LED's turn Purple
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
+
+	await delay(.5);
+	await spin(95, 1);
+	await roll(120, 27, 1.75);
+	await spin(40, 1);
+	await roll(160, 30, 1.75);
+	await setMainLed({ r: 255, g:0, b: 255});
 
 
 
