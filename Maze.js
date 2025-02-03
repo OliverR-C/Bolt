@@ -85,8 +85,8 @@ async function startProgram() {
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
-
-
+	await spin(-90, 1);
+	await roll(50, 26.75, 1.75);
 //Blue Checkpoint
 //LED's turn Blue
 //Driver: Zachary Ward
