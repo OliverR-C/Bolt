@@ -73,9 +73,12 @@ async function startProgram() {
 
 	await delay(.5);
 	await spin(95, 1);
+  await delay(.5);
 	await roll(120, 27, 1.75);
+  await delay(.5);
 	await spin(40, 1);
 	await roll(160, 30, 1.75);
+  await delay(.5);
 	await setMainLed({ r: 255, g:0, b: 255});
 
 
@@ -84,8 +87,9 @@ async function startProgram() {
 //Bolt makes sound of choice - Update Sound
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
-
+  await delay(.5);
 	await spin(-90, 1);
+  await delay(.5);
 	await roll(50, 26.75, 1.75);
 //Blue Checkpoint
 //LED's turn Blue
