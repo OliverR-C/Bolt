@@ -60,7 +60,7 @@ async function startProgram() {
 
 	await delay(.5);
 	await spin(-90, 1);
-	await roll(120, 30, 1.75);
+	await roll(120, 25, 1.75);
 	await delay(.25);
 	await spin(-90, 1);
 	await roll(30, 37, 1.75);
@@ -77,7 +77,7 @@ async function startProgram() {
 	await roll(120, 27, 1.75);
   await delay(.5);
 	await spin(40, 1);
-	await roll(160, 30, 1.75);
+	await roll(160, 27, 1.75);
   await delay(.5);
 	await setMainLed({ r: 255, g:0, b: 255});
 
@@ -88,9 +88,13 @@ async function startProgram() {
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
   await delay(.5);
-	await spin(-90, 1);
+	await spin(-70, 1);
   await delay(.5);
-	await roll(50, 26.75, 1.75);
+	await roll(80, 30, 1.75);
+	await delay(.5);
+	await spin(-90, 1);
+	await roll(-10, 29, 1.75);
+	await Sound.Animal.Wolf.play(true);
 //Blue Checkpoint
 //LED's turn Blue
 //Driver: Zachary Ward
