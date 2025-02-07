@@ -110,7 +110,10 @@ async function startProgram() {
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
-
+	await spin(45, 1);
+	await roll(-5, 35, 1.75);
+	await scrollMatrixText('Finish!', { r: 255, g: 255, b: 255 }, 30, true);
+	await speak("finish", true);
 
 
 
