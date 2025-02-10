@@ -24,18 +24,18 @@ async function startProgram() {
 	await delay(.5);
 	await spin(90, .5);
 	await delay(.5);
-	await roll(90, 53.5, 1.75);
+	await roll(90, 52, 1.75);
 	await delay(.5);
 	await spin(90, .5);
-	await roll(180, 37, 1.75);
+	await roll(180, 40.5, 1.75);
 	await Sound.Animal.Monkey.play(true);
 //Red Checkpoint
 //LED's turn Red
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
-	await spin(27, 1);
+	await spin(40, 1);
 	await delay(.5);
-	await roll(210, 45,1.75);
+	await roll(220, 41,1.75);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 //Sound #2 Checkpoint
 //Bolt makes sound of choice - Update Sound
@@ -55,10 +55,10 @@ async function startProgram() {
 	await delay(.5);
 	await spin(95, 1);
   await delay(.5);
-	await roll(120, 27, 1.75);
+	await roll(120, 31, 1.75);
   await delay(.5);
-	await spin(40, 1);
-	await roll(160, 27, 1.75);
+	await spin(45, 1);
+	await roll(165, 28, 1.75);
   await delay(.5);
 	await setMainLed({ r: 255, g:0, b: 255});
 //Sound #3 Checkpoint
@@ -68,10 +68,10 @@ async function startProgram() {
   await delay(.5);
 	await spin(-70, 1);
   await delay(.5);
-	await roll(80, 30, 1.75);
+	await roll(80, 29, 1.75);
 	await delay(.5);
 	await spin(-90, 1);
-	await roll(-10, 29, 1.75);
+	await roll(-10, 35, 1.75);
 	await Sound.Animal.Wolf.play(true);
 //Blue Checkpoint
 //LED's turn Blue
